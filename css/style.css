@@ -4,3 +4,68 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+#members{
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(126, 126, 126);
+  width: 1170px;
+  margin: auto;
+}
+
+#members h1{
+  margin-bottom: 20px;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+#members .text{
+  width: 700px;
+  font-size: 15px;
+  margin: auto;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+
+#members .member-list{
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 20px ; */
+}
+
+#members .member{
+  color: black;
+  width: 30%;
+  float: left;
+  background-color: rgb(238, 241, 245);
+  box-shadow: 4px 4px rgba(41, 36, 36, 0.2);
+  margin: 10px 15px;
+  margin-bottom: 30px;
+
+}
+
+#members .member img{
+  padding: 10px 0px;
+  padding-bottom: 0px;
+  max-width: 90%;
+}
+
+#members .member p{
+  font-size: 20px;
+}
+
+#members .member ul{
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+#members .member li{
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+}
