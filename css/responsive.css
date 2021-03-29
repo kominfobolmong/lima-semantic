@@ -1,7 +1,53 @@
 /* style responsive mobile tablet */
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
+  #about {
+    width: 100%;
+  }
+
+  .card-project {
+    width: 80%;
+  }
+
+  .card {
+    margin-bottom: 25px;
+  }
+
+  .logo-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .top-greet h1 {
+    font-size: 34px;
+  }
+
+  .image-great {
+    width: 50%;
+  }
+
+  #about {
+    padding: 0 10px;
+  }
 }
 
 /* style responsive mobile phone */
-@media (max-width: 670px) {
+@media all and (max-width: 670px) {
+  .card-project {
+    width: 100%;
+  }
+
+  .top-greet h1 {
+    font-size: 28px;
+  }
+
+  .image-great {
+    width: 40%;
+  }
+
+  #about {
+    padding: 0 10px;
+  }
 }
