@@ -87,6 +87,38 @@ div {
   justify-content: space-around;
 }
 
+@keyframes image-anim {
+  from {
+    width: 500px;
+  }
+  to {
+    width: 400px;
+  }
+}
+
+@keyframes text-anim {
+  from {
+    color: #855f35;
+  }
+  to {
+    color: #fff;
+  }
+}
+
+.image-great img {
+  width: 500px;
+  animation-name: image-anim;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+
+.top-greet h1 {
+  color: #855f35;
+  animation-name: text-anim;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+
 #content {
   width: 100%;
 }
